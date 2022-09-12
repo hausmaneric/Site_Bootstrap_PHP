@@ -1,0 +1,190 @@
+.navbar-brand{
+    font-size: 23px;
+}
+
+section.banner{
+    min-height: 600px;
+    background-image: url('../images/bg.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 210px 0;
+}
+ 
+section.banner > .container{
+    position: relative;
+    z-index: 2;
+}
+
+.overlay{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+}
+
+.box{
+    position: relative;
+}
+
+.col-md-12{
+    margin-top: 20%;
+    transform: translateY(-20%);
+}
+
+.chamada-banner h2{
+    color: #26a599; 
+    font-size: 50px; 
+}
+
+.chamada-banner p{
+    margin: 24px 0;
+    color: white;
+    font-size: 21px;
+}
+
+.chamada-banner a{
+    display: inline-block;
+    color: white;
+    font-size: 19px;
+    padding: 15px 22px;
+    background: #26a69a;
+    text-decoration: none;
+}
+
+section.cadastro-lead{
+    background: #26a69a;   
+    padding: 20px 0;
+}
+
+section.cadastro-lead  h2{
+    font-size: 24px;
+    color: white;
+}
+
+section.cadastro-lead input[type=text]{
+    width: 85%;
+    height: 40px;
+    border: 1px solid #ccc;    
+}
+
+section.cadastro-lead button{
+    width: 15%;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.depoimento h2{
+    color: #4b4b4b;
+}
+
+.depoimento blockquote{
+    color: #4b4b4b;
+    font-size: 16px;
+}
+
+section.depoimento {
+    margin-top: -150px !important;
+}
+
+section.diferenciais{
+    background-color: rgb(225, 225, 225);
+    padding: 20px 0;
+}
+
+section.diferencais > h2{
+    color: #4b4b4b;
+}
+
+.diferencias-container{
+    margin-top: 30px;
+}
+
+.diferencias-container h3{
+    color: #26a69a;  
+}
+
+.diferencias-container h2{
+    font-size: 22px;
+}
+
+section.equipe h2{
+    margin: 0;
+    background-color: #26a69a;  
+    color: white;  
+    text-align: center;
+    padding: 10px 2%; 
+}
+
+.equipe-container{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.equipe-single{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 20px 10px;
+    border: 1px solid #ccc;
+    box-shadow: 8px 7px 5px -3px rgba(20,20,20,0.6);
+}
+
+.user-picture{
+    width: 100%;
+    padding-top: 100%;    
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+.user-picture-child{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    background: darkslategrey;
+}
+
+section.final-site{
+    padding: 30px 0;
+    background: transparent !important;
+    color: #4b4b4b;
+    border-top: 2px solid #ccc ;
+}
+
+section.final-site input{
+    margin-bottom: 10px;
+}
+section.final-site textarea{
+    margin-bottom: 10px;
+}
+
+section.final-site textarea{
+    height: 120px;
+}
+
+section.final-site h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+@media screen and (max-width:1024px) {
+    .user-picture{
+        width: 40%;
+        padding-top: 40%;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .chamada-banner h2{
+        font-size: 35px;
+    }
+}
